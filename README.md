@@ -1,6 +1,6 @@
 # vue-likeIt https://rashidmall.github.io/vue-likeIt/app/
 
-![Alt text](/home/ra/Pictures/likeit.png?raw=true "Screenshot")
+![screenshot](https://github.com/RashidMall/public/images/likeit.png)
 
 * A simple voting application.
 * Each card presents some information about itself. 
