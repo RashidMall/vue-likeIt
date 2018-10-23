@@ -17,7 +17,7 @@
                 <img class="card-img-top" v-bind:src="submission.submissionImage" alt="Card image cap">
                 <div class="card-body">
                     <div class="d-inline-block float-right">
-                        <span class="icon is-small">
+                        <span class="icon is-small" v-on:click="upvote(submission.id)">
                             <i class="fa fa-chevron-up"></i>
                             <strong class="has-text-info">{{ submission.votes }}</strong>
                         </span>
