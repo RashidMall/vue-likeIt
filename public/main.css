@@ -31,7 +31,7 @@
     cursor: pointer;
   }
   
-  .image.is-24x24 {
+  .is-24x24 {
     display: inline;
     position: relative;
     top: 5px;
