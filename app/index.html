@@ -11,9 +11,9 @@
 </head>
 <body>
     <div id="app" class="container">
-        <h2 class="center">LikeIt</h2>
-        <div class="section">
-            <div v-for="submission in submissions" v-bind:key="submission.id" class="card" style="width: 18rem;">
+        <h2 class="text-center">LikeIt</h2>
+        <div class="card-group">
+            <div v-for="submission in sortedSubmissions" v-bind:key="submission.id" class="card" style="width: 18rem;">
                 <img class="card-img-top" v-bind:src="submission.submissionImage" alt="Card image cap">
                 <div class="card-body">
                     <div class="d-inline-block float-right">
